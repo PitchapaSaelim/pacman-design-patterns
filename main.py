@@ -84,7 +84,6 @@ class PacmanGame(GameApp):
         if ch in self.command_map:
             self.command_map[ch]()
 
-
 if __name__ == "__main__":
     root = tk.Tk()
     root.title("Pacman Game")
